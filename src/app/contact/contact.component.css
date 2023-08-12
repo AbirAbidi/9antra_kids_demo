@@ -1,0 +1,49 @@
+.container{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    padding: 10px 0 10px 0;
+}
+.name{
+margin: 50px 0 30px 20px ;
+}
+.email{
+    margin: 30px 0px 30px 20px 
+
+}
+.message{
+    margin: 30px 00px 30px 20px 
+
+}
+input{
+    width: 50vw;
+    height: 40px;
+}
+textarea{
+    width: 50vw;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    color: #333;
+    resize: none;
+}
+.send{
+    background-color: gray;
+    font-size: 20px;
+    position: relative;
+    left:  25vw;
+    display: inline-block;
+    padding: 0 50px 0 50px;
+}
+.the_whole{
+    display: flex;
+}
+.part_two{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 50%;
+}
+ 

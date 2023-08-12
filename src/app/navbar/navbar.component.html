@@ -1,0 +1,28 @@
+<link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+<nav class="navbar">
+    <div class="logo">9antra Kids</div>
+    <ul class="nav-links" *ngIf="!showIcon">
+      <li><a routerLink="/">Home</a></li>
+      <li><a routerLink="/about">About</a></li>
+      <li><a routerLink="/contact">Contact</a></li>
+      <div class="button-sign">
+        <li><a class="sign" routerLink="/sign_in">Sign in</a></li>
+      </div>
+      <div class="button-sign">
+        <li><a class="sign" routerLink="/sign_up">Sign up</a></li>
+      </div>
+    </ul>
+    <div class="icon-container" *ngIf="showIcon" >
+       <img class="icon" src="assets/navbar.png" alt="navbar" (click)="toggleDrawer()"> 
+    </div>
+  </nav>
+  <div class="drawer" [ngClass]="{'open': isDrawerOpen}">
+    <!-- Drawer content here -->
+    <ul class="nav-options">
+        <li><a routerLink="/home">Home</a></li>
+        <li><a routerLink="/about">About</a></li>
+        <li><a routerLink="/contact">Contact</a></li>
+        <li><a routerLink="/sign_in">Sign in</a></li>
+        <li><a routerLink="/sign_up">Sign up</a></li>
+      </ul>
+  </div>

@@ -1,0 +1,39 @@
+<link href='https://fonts.googleapis.com/css?family=Bubblegum Sans' rel='stylesheet'>
+<div class="container">
+    <div  class="image">
+        <img src="assets/hero-img.png" alt="kid">
+    </div>
+    <div class="texts">
+        <h1 class="title">Getting Best Quality Education Is Now More Easier</h1>
+        <h4>lorem ipsum akakaka</h4>
+        <div class="butoon_conatiner">
+            <div class="button"><a href="/sign_in">Get Started</a>
+            </div>
+        </div>
+    
+    </div>
+
+</div>
+
+<div class="container_2">
+<h2 class="courses">Courses We Have:</h2>
+    <div class="pink_container">
+            <div class="grey_container" *ngFor="let course of courses; let i = index">
+               <div class="content_wrapper">
+                <div class="image-course" >
+                    <img src="{{ images[i % images.length] }}" alt="pics">
+                   </div>
+                   <div class="infos">
+                    <div>Lesson: {{ course.name }}</div>
+                    <div>Duration: {{ course.duration }}</div>
+                   </div>
+               </div>
+                
+                
+            </div>
+    </div>
+
+</div>
+<div class="spacer"></div>
+
+

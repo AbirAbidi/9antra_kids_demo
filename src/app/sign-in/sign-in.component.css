@@ -1,0 +1,71 @@
+.container{
+    background-color: rgb(161, 161, 161);
+    border-radius: 10px;
+    justify-content: center;
+    margin: 0 10vw 0 10vw;
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.content{
+    padding: 50px 0px 50px 0px;
+}
+
+.content div input{
+    margin-top: 10px;
+}
+input{
+    border: 0;
+    height: 30px;
+    border-radius: 10px;
+}
+.email {
+    margin-bottom: 50px;
+    color: white;
+    font-family: 'Bubblegum Sans';font-size: 22px;
+}
+.password{
+    margin-bottom: 10px;
+    color: white;
+    font-family: 'Bubblegum Sans';font-size: 22px;
+}
+.forget{
+    color: white;
+    font-family: 'Bubblegum Sans';font-size: 15px;
+}
+.sign_in{
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background-color: pink;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    font-family: 'Bubblegum Sans';font-size: 22px;
+}
+.sign_in:hover{
+    background-color: white;
+    color: pink;
+}
+.sign_up{
+    font-family: 'Bubblegum Sans';font-size: 18px;
+    color: pink;
+    margin-left: 20px;
+}
+.sign_up_container{
+position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sign_up:hover{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
